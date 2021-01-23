@@ -10,11 +10,7 @@ window.onload = () => {
             resolve();
         }, 6000);
     });
-    toggleSkills.then(() => {
-        setTimeout(() => {
-            $(".skills").show();
-        }, 1500);
-    });
+    toggleSkills.then(() => {});
 
     $(function() {
         $(".btn-group-fab").on("click", ".btn", function() {

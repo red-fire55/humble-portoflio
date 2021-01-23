@@ -1,0 +1,116 @@
+.home {
+    background-image: url('../images/my\ web.gif');
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    overflow: hidden !important;
+}
+
+.white--text {
+    color: beige;
+}
+
+@font-face {
+    font-family: kufy;
+    src: url('../fonts/18\ Khebrat\ Musamim\ Bold.ttf');
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.kufy {
+    font-family: kufy;
+    font-size: 2rem;
+}
+
+.very-large-text {
+    font-size: 8rem !important;
+}
+
+.btn-black {
+    background-color: black !important;
+    color: beige !important;
+}
+
+.btn-group-fab {
+    position: fixed;
+    width: 50px;
+    height: auto;
+    right: 20px;
+    bottom: 20px;
+}
+
+.cBtn {
+    cursor: pointer;
+}
+
+.fa-facebook-square:hover {
+    color: blue;
+}
+
+.fa-linkedin:hover {
+    color: deepskyblue;
+}
+
+.fa-github-square:hover {
+    color: black;
+}
+
+.fa-whatsapp-square:hover {
+    color: limegreen;
+}
+
+
+/* 
+.btn-group-fab div {
+    position: relative;
+    width: 100%;
+    height: auto;
+} */
+
+.btn-group-fab .btn {
+    position: absolute;
+    bottom: 0;
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 4px;
+    width: 40px;
+    height: 40px;
+    margin: 4px auto;
+}
+
+.btn-group-fab .btn-main {
+    width: 50px;
+    height: 50px;
+    right: 50%;
+    margin-right: -25px;
+    z-index: 9;
+}
+
+.btn-group-fab .btn-sub {
+    bottom: 0;
+    z-index: 8;
+    right: 50%;
+    margin-right: -20px;
+    -webkit-transition: all 2s;
+    transition: all 0.5s;
+}
+
+.btn-group-fab.active .btn-sub:nth-child(2) {
+    bottom: 60px;
+}
+
+.btn-group-fab.active .btn-sub:nth-child(3) {
+    bottom: 110px;
+}
+
+.btn-group-fab.active .btn-sub:nth-child(4) {
+    bottom: 160px;
+}
+
+.btn-group-fab .btn-sub:nth-child(5) {
+    bottom: 210px;
+}
+
+.btn-group-fab.active .btn-sub:nth-child(6) {
+    bottom: 260px;
+}
